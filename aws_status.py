@@ -17,6 +17,9 @@ def scraping():
             server = body[index]
             status = body[index + 1]
             return server, status
+    if 'Amazon API Gateway (N. Virginia)' not in body:
+        print('Something has gone horribly wrong; N. Virginia does not appear to be available. Perhaps the format'
+              'of the page has changed?')
 
 
 def alert(arg):
