@@ -2,11 +2,12 @@ from distutils.core import setup
 
 setup(
     name='aws_status',
-    version='1.0',
+    version='0.1',
     packages=[''],
-    url='https://github.com/ragnar321/aws_status/',
+    install_requires=['requests', 'bs4', 'termcolor'],
+    url='https://github.com/ragnar321/aws_status',
     license='GPL v2',
     author='ragnar',
-    author_email='github@ragnar.neomailbox.ch',
-    description='AWS status checker for North Virginia'
+    author_email='',
+    description='AWS status checker for North Virginia.'
 )
