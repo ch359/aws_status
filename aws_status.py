@@ -35,7 +35,7 @@ def alert(status):
 
 while True:
     alert(scraping())
-    time.sleep(20)
+    time.sleep(120)
 
 # soup = BeautifulSoup(open('aws.htm'), 'html.parser') <-- This code can be used to test against a local and editable
 # copy of the page to simulate failing services. Comment out the requests.get line above to avoid pointlessly calling
